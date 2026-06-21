@@ -16,6 +16,19 @@ Juego de tipo "match-3" desarrollado en Android Studio con Kotlin. Basado en la 
 - Guardado de progreso con Firebase.  
 - Integración con Google Play Games para puntuaciones.  
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[MainActivity - Jetpack Compose] --> B[TableroJuego - Match-3 Grid]
+    B --> C[LogicaMatch3 - Figuras del Oceano]
+    C --> D[DeteccionCombos - Alineacion de Figuras]
+    D --> E[AnimacionesCompose - Efectos Visuales]
+    D --> F[SistemaProgresion - Niveles y Dificultad]
+    F --> G[Firebase Firestore - Guardado de Progreso]
+    A --> H[Google Play Games - Puntuaciones Globales]
+```
+
 ## 🚀 Tecnologías utilizadas  
 - Android Studio  
 - Kotlin  
@@ -32,19 +45,6 @@ Juego de tipo "match-3" desarrollado en Android Studio con Kotlin. Basado en la 
 👨‍💻 **Alejandro De Mendoza**
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[MainActivity - Jetpack Compose] --> B[TableroJuego - Match-3 Grid]
-    B --> C[LogicaMatch3 - Figuras del Oceano]
-    C --> D[DeteccionCombos - Alineacion de Figuras]
-    D --> E[AnimacionesCompose - Efectos Visuales]
-    D --> F[SistemaProgresion - Niveles y Dificultad]
-    F --> G[Firebase Firestore - Guardado de Progreso]
-    A --> H[Google Play Games - Puntuaciones Globales]
-```
 
 ## Autor
 
