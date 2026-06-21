@@ -1,6 +1,13 @@
+<div align="center">
+
 # 🎮 Juego Seaside Splash - Android Studio  
 
-## 📖 Descripción  
+## 📖 Descripción
+
+</div>
+
+---
+
 Juego de tipo "match-3" desarrollado en Android Studio con Kotlin. Basado en la mecánica de Candy Crush, permite a los jugadores alinear figuras del océano.
 
 ## 🛠️ Funcionalidades  
@@ -23,3 +30,12 @@ Juego de tipo "match-3" desarrollado en Android Studio con Kotlin. Basado en la 
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
